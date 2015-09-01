@@ -1,0 +1,11 @@
+Package: preprocessr
+Title: Tools to clean up messy strings
+Version: 0.1
+Authors@R: person(given="Tarak", family = "Shah", role = c("aut", "cre"), email = "tarak_shah@berkeley.edu")
+Description: Common string operations when working with biographic data
+License: MIT + file LICENSE
+Imports: 
+    stringr,
+    stringdist,
+    assertthat
+Suggests: testthat
